@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.grupo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.subtexto {
+    display: none;
+}
+
+.grupo.active .subtexto {
+    display: block; /* Show content when active */
+}   
